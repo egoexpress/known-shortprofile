@@ -52,6 +52,16 @@
                     case 'last.fm':             
                         $icon = 'fa fa-lastfm'; 
                         break;
+                    case 'keybase.io':
+                        $icon = 'fa fa-key';
+                        break;
+                    case 'about.me':
+                        $icon = 'fa fa-user';
+                        break;
+                    case 'paypal.me':
+                        $icon = 'fa fa-paypal';
+                        $url_filtered = preg_replace('/www.paypal.me\/(\w*).*/','$1',$url_display);
+                        break;
                     case 'pinboard.in':         
                         $icon = 'fa fa-bookmark'; 
                         $url_filtered = str_replace('pinboard.in/u:','',$url_display);
