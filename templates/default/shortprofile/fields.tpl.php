@@ -32,6 +32,7 @@
                     case 'fb.com':
                     case 'facebook.com':        
                         $icon = 'fa fa-facebook'; 
+                        break;
                     case 'plus.google.com':     
                         $icon = 'fa fa-google-plus'; 
                         $url_filtered = preg_replace('/^\+/','', $url_filtered);
