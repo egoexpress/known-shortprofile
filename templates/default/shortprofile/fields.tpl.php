@@ -4,7 +4,6 @@
             if (!empty($url)) {
                 
                 $h_card = 'u-url';
-                $url_display = $url;
 
                 // Quick shim for Twitter usernames
                 if ($url[0] == '@') {
@@ -15,8 +14,8 @@
                 }
 
                 $url = $this->fixURL($url);
-
-                $url_filtered = end(explode('/', $url));
+                $url_display = rtrim($url, '/');
+                $url_filtered = end(explode('/', $url_display));
                 
                 // Pick appropriate icon
                 $host = parse_url($url, PHP_URL_HOST);
