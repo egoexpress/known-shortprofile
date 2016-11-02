@@ -34,6 +34,8 @@
                         break;
                     case 'plus.google.com':     
                         $icon = 'fa fa-google-plus'; 
+                        $url_filtered = preg_replace('/plus.google.com\//','',$url_display);
+                        $url_filtered = preg_replace('/\/about$/','',$url_filtered);
                         $url_filtered = preg_replace('/^\+/','', $url_filtered);
                         break;
                     case 'linkedin.com':        
@@ -64,7 +66,7 @@
                     case 'pinboard.in':         
                         $icon = 'fa fa-bookmark'; 
                         $url_filtered = str_replace('pinboard.in/u:','',$url_display);
-                        $url_filtered = str_replace('/public/','',$url_filtered);
+                        $url_filtered = preg_replace('/\/public$/','',$url_filtered);
                         break;
                     case (preg_match('/.*foursquare\.com/', $host) ? true : false): 
                         $icon = 'fa fa-foursquare'; 
