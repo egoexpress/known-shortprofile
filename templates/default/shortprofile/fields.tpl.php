@@ -75,6 +75,31 @@
                         $icon = 'fa fa-newspaper-o'; 
                         $url_filtered = str_replace('.newsblur.com','',$url_display);
                         break;
+                    case 'flickr.com':         
+                        $icon = 'fa fa-flickr'; 
+						$url_filtered = preg_replace('/www.flickr.com\/people\/(\w*).*/','$1',$url_display);
+                        break;  
+                    case 'strava.com':         
+                        $icon = 'fa fa-bicycle'; 
+						$url_filtered = preg_replace('/www.strava.com\/athletes\/(\w*).*/','$1',$url_display);
+                        break;                    
+                    case 'leanpub.com':         
+                        $icon = 'fa fa-leanpub'; 
+						$url_filtered = preg_replace('/leanpub.com\/u\/(\w*).*/','$1',$url_display);
+                        break; 
+                    case 'goodreads.com':          
+                        $icon = 'fa fa-book'; 
+                        break;               
+                    case 'telegram.me':          
+                        $icon = 'fa fa-paper-plane'; 
+                        break;
+                    case 'zotero.org':          
+                        $icon = 'fa fa-bookmark'; 
+                        break;
+                    case 'reddit.com':         
+                        $icon = 'fa fa-reddit'; 
+						$url_filtered = preg_replace('/www.reddit.com\/user\/(\w*).*/','$1',$url_display);
+                        break;                                              
                     default:                    
                         $icon = 'fa fa-link'; 
                         $url_filtered = $url_display;
