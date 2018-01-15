@@ -77,7 +77,7 @@
                         break;
                     case 'flickr.com':         
                         $icon = 'fa fa-flickr'; 
-                        $url_filtered = preg_replace('/www.flickr.com\/people\/(\w*).*/','$1',$url_display);
+                        $url_filtered = preg_replace('/www.flickr.com\/photos\/(\w*).*/','$1',$url_display);
                         break;  
                     case 'strava.com':         
                         $icon = 'fa fa-bicycle'; 
@@ -99,7 +99,45 @@
                     case 'reddit.com':         
                         $icon = 'fa fa-reddit'; 
                         $url_filtered = preg_replace('/www.reddit.com\/user\/(\w*).*/','$1',$url_display);
-                        break;                                              
+                        break;
+                    case 'soundcloud.com':         
+                        $icon = 'fa fa-soundcloud'; 
+                        break;
+                    case 'medium.com':         
+                        $icon = 'fa fa-medium'; 
+                        break;
+                    case 'vimeo.com':         
+                        $icon = 'fa fa-vimeo'; 
+                        break;
+                    case '500px.com':         
+                        $icon = 'fa fa-500px'; 
+                        break;
+                    case 'youtube.com':         
+                        $icon = 'fa fa-youtube'; 
+                        $url_filtered = preg_replace('/www.youtube.com\/user\/(\w*).*/','$1',$url_display);
+                        break;
+                    case 'snapchat.com':         
+                        $icon = 'fa fa-snapchat'; 
+                        $url_filtered = preg_replace('/www.snapchat.com\/add\/(\w*).*/','$1',$url_display);
+                        break;
+                    case 'bible.com':         
+                        $icon = 'fa fa-book'; 
+                        $url_filtered = preg_replace('/www.bible.com\/users\/(\w*).*/','$1',$url_display);
+                        break;
+                    case 'anchor.fm':         
+                        $icon = 'fa fa-anchor'; 
+                        break;
+                    case 'pinterest.com':         
+                        $icon = 'fa fa-pinterest'; 
+                        break;
+                    case (preg_match('/.*wordpress\.com/', $host) ? true : false): 
+                        $icon = 'fa fa-wordpress'; 
+                        $url_filtered = str_replace('.wordpress.com','',$url_display);
+                        break;
+                    case (preg_match('/.*tumblr\.com/', $host) ? true : false): 
+                        $icon = 'fa fa-tumblr'; 
+                        $url_filtered = str_replace('.tumblr.com','',$url_display);
+                        break;
                     default:                    
                         $icon = 'fa fa-link'; 
                         $url_filtered = $url_display;
