@@ -138,8 +138,11 @@
                         $icon = 'fa fa-tumblr'; 
                         $url_filtered = str_replace('.tumblr.com','',$url_display);
                         break;
-                        case 'gitshowcase.com':          
+                    case 'gitshowcase.com':          
                         $icon = 'fa fa-github'; 
+                        break;
+                    case 'behance.net':          
+                        $icon = 'fa fa-behance'; 
                         break;
                     default:                    
                         $icon = 'fa fa-link'; 
