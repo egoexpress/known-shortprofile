@@ -144,6 +144,9 @@
                     case 'behance.net':          
                         $icon = 'fa fa-behance'; 
                         break;
+                    case 'micro.blog':          
+                        $icon = 'fa fa-rss-square'; 
+                        break;     
                     default:                    
                         $icon = 'fa fa-link'; 
                         $url_filtered = $url_display;
