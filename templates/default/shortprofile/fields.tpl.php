@@ -146,7 +146,11 @@
                         break;
                     case 'micro.blog':          
                         $icon = 'fa fa-rss-square'; 
-                        break;     
+                        break;
+                    case 'cash.me':         
+                        $icon = 'fa fa-money'; 
+                        break;
+                        
                     default:                    
                         $icon = 'fa fa-link'; 
                         $url_filtered = $url_display;
