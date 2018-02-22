@@ -150,6 +150,9 @@
                     case 'cash.me':         
                         $icon = 'fa fa-money'; 
                         break;
+                    case 'venmo.com':         
+                        $icon = 'fa fa-money'; 
+                        break;
                         
                     default:                    
                         $icon = 'fa fa-link'; 
