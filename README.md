@@ -1,6 +1,7 @@
 # known-shortprofile
 
-A [Known](http://withknown.com) plugin to clean up the URLs displayed in the profile page. 
+A [Known](http://withknown.com) plugin to clean up the URLs displayed in the profile page. After enabling the plugin,
+just the usernames and a appropriate icon from Font Awesome is shown for the services handled in this plugin.
 
 ## What does it do?
 
@@ -20,6 +21,11 @@ Neat, huh?
 
 Easy. Just switch to the _IdnoPlugins_ directory of your Known installation and checkout this repo:
 
-    git clone https://github.com/egoexpress/known-shortprofle.git ShortProfile
+    git clone https://github.com/egoexpress/known-shortprofile.git ShortProfile
     
 Afterwards, activate the plugin and off you go.
+
+## Contribution
+
+If you want to add some additional services, feel free to fork the repo and add a pull request afterwards. I'm happy to merge
+any additional services.
