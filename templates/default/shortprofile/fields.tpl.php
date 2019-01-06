@@ -78,6 +78,7 @@
                     case 'flickr.com':
                         $icon = 'fab fa-flickr';
                         $url_filtered = preg_replace('/www.flickr.com\/photos\/(\w*).*/','$1',$url_display);
+                        $url_filtered = preg_replace('/www.flickr.com\/people\/(\w*).*/','$1',$url_display);
                         break;
                     case 'unsplash.com':
                         $icon = 'fas fa-image';
