@@ -45,7 +45,7 @@
                         $icon = 'fab fa-instagram';
                         break;
                     case 'untappd.com':
-                        $icon = 'fas fa-untappd';
+                        $icon = 'fas fa-beer';
                         break;
                     case 'xing.com':
                         $icon = 'fab fa-xing';
