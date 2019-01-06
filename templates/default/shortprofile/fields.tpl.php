@@ -156,6 +156,37 @@
                     case 'venmo.com':
                         $icon = 'fas fa-money-bill';
                         break;
+                    case 'upcoming.org':
+                        $icon = 'fas fa-calendar-day';
+                        break;
+                    case 'periscope.tv':
+                        $icon = 'fab fa-periscope';
+                        break;
+                    case 'ello.co':
+                        $icon = 'fab fa-ello';
+                        break;
+                    case 'vine.co':
+                        $icon = 'fab fa-vine';
+                        break;
+                    case 'producthunt.com':
+                        $icon = 'fab fa-product-hunt';
+                        break;
+                    case 'del.icio.us':
+                        $icon = 'fab fa-delicious';
+                        break;
+                    case 'codepen.io':
+                        $icon = 'fab fa-codepen';
+                        break;
+                    case 'mixcloud.com':
+                        $icon = 'fab fa-mixcloud';
+                        break;
+                    case 'stackoverflow.com':
+                        $icon = 'fab fa-stack-overflow';
+                        break;
+                    case 'twitch.tv':
+                        $icon = 'fab fa-twitch';
+                        break;
+
 
                     default:
                         $icon = 'fas fa-link';
