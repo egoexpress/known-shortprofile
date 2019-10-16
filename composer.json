@@ -1,0 +1,26 @@
+{
+  "name": "egoexpress/known-shortprofile",
+  "type": "known-plugin",
+  "description": "Clean up profile URLs on Knowns profile page and add favicons",
+  "version": "0.4",
+  "homepage": "https://github.com/egoexpress/known-shortprofile",
+  "keywords": [
+    "known",
+    "plugin",
+    "indieweb"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Björn Stierand",
+      "email": "bjoern-github@innovention.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-name": "Shortprofile"
+  }
+}
