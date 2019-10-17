@@ -45,7 +45,7 @@
                         $icon = 'fab fa-instagram';
                         break;
                     case 'untappd.com':
-                        $icon = 'fab fa-untappd';
+                        $icon = 'fas fa-beer';
                         break;
                     case 'xing.com':
                         $icon = 'fab fa-xing';
@@ -72,7 +72,7 @@
                         $icon = 'fab fa-foursquare';
                         break;
                     case (preg_match('/.*newsblur\.com/', $host) ? true : false):
-                        $icon = 'fas fa-newspaper';
+                        $icon = 'far fa-newspaper';
                         $url_filtered = str_replace('.newsblur.com','',$url_display);
                         break;
                     case 'flickr.com':
@@ -92,7 +92,7 @@
                         $url_filtered = preg_replace('/leanpub.com\/u\/(\w*).*/','$1',$url_display);
                         break;
                     case 'goodreads.com':
-                        $icon = 'fab fa-goodreads';
+                        $icon = 'fas fa-book';
                         break;
                     case 'telegram.me':
                         $icon = 'fab fa-telegram';
