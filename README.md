@@ -1,5 +1,7 @@
 # known-shortprofile
 
+![PHP Composer Test Badge](https://github.com/egoexpress/known-shortprofile/workflows/PHP%20Composer%20Test/badge.svg)
+
 A [Known](http://withknown.com) plugin to clean up the URLs displayed in the profile page. After enabling the plugin,
 just the usernames and an appropriate icon from [Font Awesome](https://fontawesome.com/) is shown for the services handled by this plugin.
 
