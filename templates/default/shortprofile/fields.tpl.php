@@ -15,7 +15,8 @@
 
                 $url = $this->fixURL($url);
                 $url_display = rtrim($url, '/');
-                $url_filtered = end(explode('/', $url_display));
+                $exploded_url = explode('/', $url_display);
+                $url_filtered = end($exploded_url);
 
                 // Pick appropriate icon
                 $host = parse_url($url, PHP_URL_HOST);
