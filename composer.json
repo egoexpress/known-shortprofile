@@ -2,7 +2,7 @@
   "name": "egoexpress/known-shortprofile",
   "type": "known-plugin",
   "description": "Clean up profile URLs on Knowns profile page and add favicons",
-  "version": "0.6",
+  "version": "0.7",
   "homepage": "https://github.com/egoexpress/known-shortprofile",
   "keywords": [
     "known",
