@@ -9,7 +9,7 @@ just the usernames and an appropriate icon from [Fork Awesome](https://forkaweso
 
 When you setup Known, enter some URLs in your profile and then have a look at your profile page. It'll look somewhat like this:
 
-![Without Plugin](https://egoexpress.github.io/known-shortprofile/images/without-plugin.png)
+![Without Plugin](https://github.com/egoexpress/known-shortprofile/raw/master/.github/without-shortprofile-plugin.png)
 
 Wow, all those long URLs are kinda messed up.
 
@@ -17,7 +17,7 @@ Here's where this plugin comes in. It shortens the URLs down to the respective u
 
 So, after activating the plugin the profile shown above looks like this:
 
-![With Plugin](https://egoexpress.github.io/known-shortprofile/images/with-plugin.png)
+![With Plugin](https://github.com/egoexpress/known-shortprofile/raw/master/.github/with-shortprofile-plugin.png)
 
 Neat, huh?
 
